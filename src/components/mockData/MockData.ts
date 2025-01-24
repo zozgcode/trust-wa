@@ -97,8 +97,8 @@ export const mockAccounts: Account[] = [
     holder: {
       full_name: 'Sharon Little',
       email: 's@gmail.com',
-      username: 's',
-      password: 's'
+      username: 'SharoLit',
+      password: 'Slit_233'
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
