@@ -60,12 +60,6 @@ export const cryptoCoins = [
     iconUrl: 'https://cryptologos.cc/logos/polygon-matic-logo.png'
   },
   {
-    id: 11,
-    name: 'Polkadot',
-    symbol: 'DOT',
-    iconUrl: 'https://cryptologos.cc/logos/polkadot-dot-logo.png'
-  },
-  {
     id: 12,
     name: 'Litecoin',
     symbol: 'LTC',

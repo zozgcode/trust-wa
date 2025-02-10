@@ -102,11 +102,20 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'You are unable to withdraw at the moment. Clear your tax and your investment will be available for withdrawal.',
+      transaction_return_msg: 'Your account has been successfully activated for withdrawals. To learn about your transfer charges, please reach out to our customer care team at smithhelpt2314@gmail.com.',
       transaction_code: '',
       wireDate: true
     },
     transaction_history: [
+      {
+        date: 'February 08, 2025',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1n2s....hs6jd6u881',
+        status: 'Success',
+        quantity: 0.62,
+        amount_in_usd: 60000.0,
+        assets: 'BTC'
+      },
       {
         date: 'January 22, 2025',
         description: 'Deposit BTC',
@@ -187,7 +196,7 @@ export const mockAccounts: Account[] = [
         walletAddress: 'bc1qhl7znnt6uj4kcez96az2lt9x3w8lax46hvfv2j',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
-        quantity: 3.41
+        quantity: 4.03
       },
       {
         assetsName: 'ETH',
