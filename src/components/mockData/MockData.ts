@@ -261,7 +261,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
       transaction_return_msg:
-        'Withdrawal failed due to banking policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
+        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
       transaction_code: '',
       wireDate: true
     },
@@ -343,8 +343,8 @@ export const mockAccounts: Account[] = [
         description: 'Transfer BTC',
         walletAddress: 'bc1qkhc...zpw',
         status: 'Success',
-        quantity: 24.40,
-        amount_in_usd: 2100000.0,
+        quantity: -24.40,
+        amount_in_usd: -2100000.0,
         assets: 'BTC'
       },
       {
