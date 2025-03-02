@@ -286,19 +286,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'February 05, 2025',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: '3J98t1...NLy',
         status: 'Success',
-        quantity: -0.56,
-        amount_in_usd: -48500.0,
+        quantity: 0.56,
+        amount_in_usd: 48500.0,
         assets: 'BTC'
       },
       {
         date: 'January 29, 2025',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qar0...mdq',
         status: 'Success',
-        quantity: -1.39,
+        quantity: 1.39,
         amount_in_usd: 120400.0,
         assets: 'BTC'
       },
@@ -313,19 +313,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'January 02, 2025',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q4c0...hl7',
         status: 'Success',
-        quantity: -0.59,
+        quantity: 0.59,
         amount_in_usd: 50600.0,
         assets: 'BTC'
       },
       {
         date: 'December 27, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: '1BoatS...pyT',
         status: 'Success',
-        quantity: -0.96,
+        quantity: 0.96,
         amount_in_usd: 82900.0,
         assets: 'BTC'
       },
@@ -339,20 +339,20 @@ export const mockAccounts: Account[] = [
         assets: 'BTC'
       },
       {
-        date: 'December 03, 2024',
-        description: 'Deposit BTC',
+        date: 'December 01, 2024',
+        description: 'Transfer BTC',
         walletAddress: 'bc1qkhc...zpw',
         status: 'Success',
-        quantity: 0.71,
-        amount_in_usd: 61300.0,
+        quantity: 24.40,
+        amount_in_usd: 2100000.0,
         assets: 'BTC'
       },
       {
         date: 'November 28, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qmxd...h4k',
         status: 'Success',
-        quantity: -2.72,
+        quantity: 2.72,
         amount_in_usd: 142000.0,
         assets: 'BTC'
       },
@@ -367,19 +367,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'November 07, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q2x4...6v4',
         status: 'Success',
-        quantity: -1.26,
+        quantity: 1.26,
         amount_in_usd: 63800.0,
         assets: 'BTC'
       },
       {
         date: 'October 25, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qr4d...fpx',
         status: 'Success',
-        quantity: -1.88,
+        quantity: 1.88,
         amount_in_usd: 94700.0,
         assets: 'BTC'
       },
@@ -394,19 +394,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'October 05, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: '1F1tAa...qX',
         status: 'Success',
-        quantity: -1.37,
+        quantity: 1.37,
         amount_in_usd: 67500.0,
         assets: 'BTC'
       },
       {
         date: 'September 29, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qe5h...rgj',
         status: 'Success',
-        quantity: -3.12,
+        quantity: 3.12,
         amount_in_usd: 152000.0,
         assets: 'BTC'
       },
@@ -421,19 +421,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'September 07, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qwqd...zej',
         status: 'Success',
-        quantity: -0.67,
+        quantity: 0.67,
         amount_in_usd: 32100.0,
         assets: 'BTC'
       },
       {
         date: 'August 27, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1quka...faj',
         status: 'Success',
-        quantity: -2.45,
+        quantity: 2.45,
         amount_in_usd: 116300.0,
         assets: 'BTC'
       },
@@ -448,19 +448,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'August 05, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: '3P3QsM...rjt',
         status: 'Success',
-        quantity: -0.78,
+        quantity: 0.78,
         amount_in_usd: 36500.0,
         assets: 'BTC'
       },
       {
         date: 'July 28, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q9s0...h2z',
         status: 'Success',
-        quantity: -1.76,
+        quantity: 1.76,
         amount_in_usd: 81900.0,
         assets: 'BTC'
       },
@@ -475,19 +475,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'July 06, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qtl0...fsm',
         status: 'Success',
-        quantity: -1.35,
+        quantity: 1.35,
         amount_in_usd: 62200.0,
         assets: 'BTC'
       },
       {
         date: 'June 29, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: '1Mz715...BWX',
         status: 'Success',
-        quantity: -2.34,
+        quantity: 2.34,
         amount_in_usd: 107600.0,
         assets: 'BTC'
       },
@@ -502,19 +502,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'June 07, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qv9m...cpj',
         status: 'Success',
-        quantity: -1.17,
+        quantity: 1.17,
         amount_in_usd: 53300.0,
         assets: 'BTC'
       },
       {
         date: 'May 29, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qm34...s3h',
         status: 'Success',
-        quantity: -3.05,
+        quantity: 3.05,
         amount_in_usd: 138200.0,
         assets: 'BTC'
       },
@@ -529,19 +529,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'May 05, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q4u3...jty',
         status: 'Success',
-        quantity: -1.29,
+        quantity: 1.29,
         amount_in_usd: 58100.0,
         assets: 'BTC'
       },
       {
         date: 'April 28, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qs62...0m3',
         status: 'Success',
-        quantity: -1.92,
+        quantity: 1.92,
         amount_in_usd: 85600.0,
         assets: 'BTC'
       },
@@ -556,19 +556,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'April 06, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q7gg...jr7',
         status: 'Success',
-        quantity: -1.13,
+        quantity: 1.13,
         amount_in_usd: 50000.0,
         assets: 'BTC'
       },
       {
         date: 'March 28, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qrp3...mv3',
         status: 'Success',
-        quantity: -2.63,
+        quantity: 2.63,
         amount_in_usd: 115800.0,
         assets: 'BTC'
       },
@@ -583,19 +583,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'March 05, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q5qy...970',
         status: 'Success',
-        quantity: -1.42,
+        quantity: 1.42,
         amount_in_usd: 62000.0,
         assets: 'BTC'
       },
       {
         date: 'February 27, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qkn0...s4h',
         status: 'Success',
-        quantity: -1.84,
+        quantity: 1.84,
         amount_in_usd: 79800.0,
         assets: 'BTC'
       },
@@ -610,19 +610,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'February 05, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qh9m...3dw',
         status: 'Success',
-        quantity: -1.21,
+        quantity: 1.21,
         amount_in_usd: 52200.0,
         assets: 'BTC'
       },
       {
         date: 'January 29, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qxy2...wlh',
         status: 'Success',
-        quantity: -2.17,
+        quantity: 2.17,
         amount_in_usd: 93000.0,
         assets: 'BTC'
       },
@@ -637,19 +637,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'January 07, 2024',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q9x3...4ew',
         status: 'Success',
-        quantity: -1.09,
+        quantity: 1.09,
         amount_in_usd: 46300.0,
         assets: 'BTC'
       },
       {
         date: 'December 28, 2023',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q0sg...ldf',
         status: 'Success',
-        quantity: -1.73,
+        quantity: 1.73,
         amount_in_usd: 72800.0,
         assets: 'BTC'
       },
@@ -664,19 +664,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'December 06, 2023',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q0d9...sq0',
         status: 'Success',
-        quantity: -1.25,
+        quantity: 1.25,
         amount_in_usd: 52300.0,
         assets: 'BTC'
       },
       {
         date: 'November 29, 2023',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qc5z...vh4',
         status: 'Success',
-        quantity: -1.97,
+        quantity: 1.97,
         amount_in_usd: 81900.0,
         assets: 'BTC'
       },
@@ -691,19 +691,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'November 07, 2023',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qus3...jyk',
         status: 'Success',
-        quantity: -1.33,
+        quantity: 1.33,
         amount_in_usd: 55000.0,
         assets: 'BTC'
       },
       {
         date: 'October 29, 2023',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qfj8...xqt',
         status: 'Success',
-        quantity: -2.28,
+        quantity: 2.28,
         amount_in_usd: 93800.0,
         assets: 'BTC'
       },
@@ -718,19 +718,19 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'October 07, 2023',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q7vw...h08',
         status: 'Success',
-        quantity: -1.31,
+        quantity: 1.31,
         amount_in_usd: 53600.0,
         assets: 'BTC'
       },
       {
         date: 'September 28, 2023',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1qglk...4g3',
         status: 'Success',
-        quantity: -1.62,
+        quantity: 1.62,
         amount_in_usd: 65800.0,
         assets: 'BTC'
       },
@@ -745,10 +745,10 @@ export const mockAccounts: Account[] = [
       },
       {
         date: 'September 06, 2023',
-        description: 'Transfer BTC',
+        description: 'Deposit BTC',
         walletAddress: 'bc1q5dz...h4m',
         status: 'Success',
-        quantity: -1.15,
+        quantity: 1.15,
         amount_in_usd: 46500.0,
         assets: 'BTC'
       }
