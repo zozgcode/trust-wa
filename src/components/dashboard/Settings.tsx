@@ -43,7 +43,8 @@ export default function Settings() {
       <div className="p-4">
         <div className="text-sm flex flex-col items-center justify-center gap-8 mb-4">
           <div className="w-full rounded-[30px] flex bg-[#2A2A2A] border-[#2A2A2A] mb-1 shadow-sm justify-between items-center pr-5 p-4">
-            <span className="text-[#c0c0c0] font-normal">Full Name</span>
+            {user.holder.jointAccount ? <span className="text-[#c0c0c0] font-normal">Joint Account Names</span> : <span className="text-[#c0c0c0] font-normal">Full Name</span>}
+
             <span className="text-[#c0c0c0] font-medium flex items-center gap-1">
               <span>{user.holder.full_name}</span>
             </span>

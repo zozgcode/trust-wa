@@ -3,6 +3,7 @@ export interface Account {
   account_id: string;
   holder: {
     full_name?: string;
+    jointAccount?: boolean;
     email?: string;
     accountWalletAddress?: string;
     dateCreated?: string;

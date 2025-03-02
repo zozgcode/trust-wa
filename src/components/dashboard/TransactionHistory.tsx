@@ -56,7 +56,10 @@ export default function TransactionHistory() {
                 <p className="text-sm text-[#c0c0c0]">
                   {getFormattedDate(transaction.date)}, {transaction.time}
                 </p>
-                <p className="text-sm text-[#c0c0c0]">To: {transaction.walletAddress}</p>
+                <p className="text-sm text-[#c0c0c0]">
+                  {transaction.quantity < 0 || transaction.description.includes('Transfer') ? 'To: ' : 'From: '}
+                  {transaction.walletAddress}
+                </p>
               </div>
             </div>
             <div className="text-right">
