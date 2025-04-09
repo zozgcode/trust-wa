@@ -1102,7 +1102,7 @@ export const mockAccounts: Account[] = [
         walletAddress: 'bc1qhl7znnt6uj4kcez96az2lt9x3w8lax46hvfv2j',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
-        quantity: 0
+        quantity: 53.18
       },
       {
         assetsName: 'ETH',
@@ -1110,7 +1110,7 @@ export const mockAccounts: Account[] = [
         walletAddress: '0x4dEea33c8A880b1841B4b7A94ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
-        quantity: 2769.74
+        quantity: 0
       },
       {
         assetsName: 'BNB',
