@@ -1,3 +1,4 @@
+import { useCryptoPrices } from '@/hooks/useCryptoPrices';
 import { Account } from '@/utils/types';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
@@ -12,12 +13,18 @@ interface SendCoinsModalProps {
   };
   asset: {
     quantity: number;
-    assetRecentPrice: number; // Recent price of the asset in USD
   };
   onClose: () => void;
 }
 
+const symbolMapping: Record<string, string> = {
+  BTC: 'bitcoin',
+  ETH: 'ethereum',
+  BNB: 'binancecoin'
+};
+
 export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalProps) {
+  const { prices } = useCryptoPrices(); // Get the crypto prices
   const [user, setUser] = useState<Account | null>(null);
   const [amount, setAmount] = useState<number | ''>('');
   const [recipient, setRecipient] = useState<string>('');
@@ -53,7 +60,8 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
     setError(null); // Clear the error since it's now valid
   };
 
-  const equivalentInUSD = amount ? (amount * asset.assetRecentPrice).toFixed(2) : '0.00';
+  // Get price from useCryptoPrices hook (handle cases where price might be missing)
+  const equivalentInUSD = amount !== '' && !isNaN(Number(amount)) ? (Number(amount) * (prices[symbolMapping[coin.symbol.toUpperCase()]] || 0)).toFixed(2) : '0.00';
 
   const handleSend = () => {
     if (!recipient) {
@@ -129,7 +137,7 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
       </div>
       {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
       <div className="flex items-center justify-between mt-2">
-        {/* <span className="text-[#c0c0c0] text-sm">${equivalentInUSD}</span> */}
+        <span className="text-[#c0c0c0] text-sm">${equivalentInUSD} USD</span>
         <span className="text-[#c0c0c0] text-sm">
           Available {asset.quantity.toFixed(2)} {coin.symbol}
         </span>
@@ -160,8 +168,7 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
           <div className="bg-[#181818] p-5 rounded-lg">
             <h2 className="text-white text-lg mb-3">Confirmation</h2>
             <p className="text-[#c0c0c0]">
-              You are about to send {amount} {coin.symbol} to {recipient}.
-              {/* You are about to send {amount} {coin.symbol} ~ ${equivalentInUSD} to {recipient}. */}
+              You are about to send {amount} {coin.symbol} ~ ${equivalentInUSD} to {recipient}.
             </p>
             <div className="flex justify-end mt-4">
               <button onClick={() => setShowConfirmation(false)} className="p-2 mr-2 bg-[#333333] text-white rounded">

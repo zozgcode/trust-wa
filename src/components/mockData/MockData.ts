@@ -966,8 +966,8 @@ export const mockAccounts: Account[] = [
       full_name: '',
       jointAccount: false,
       email: 'm*@gmail.com',
-      username: 'Mitchelle19',
-      password: 'ILovejohn19$'
+      username: 'm',
+      password: 'm'
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
@@ -1099,7 +1099,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'BTC',
         assetsName2: 'Bitcoin',
-        walletAddress: 'bc1qhl7znnt6uj4kcez96az2lt9x3w8lax46hvfv2j',
+        walletAddress: '3LUNSXXoBjR9pLk1fshPVpg8NjQoSdeDkn',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
         quantity: 53.18
