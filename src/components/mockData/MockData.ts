@@ -959,5 +959,167 @@ export const mockAccounts: Account[] = [
         quantity: 0
       }
     ]
+  },
+  {
+    account_id: 'ACC005',
+    holder: {
+      full_name: '',
+      jointAccount: false,
+      email: 'm*@gmail.com',
+      username: 'Mitchelle19',
+      password: 'ILovejohn19$'
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
+      transaction_return_msg:
+        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trustWcustomerservice@outlook.com',
+      transaction_code: '',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        date: 'April 5, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x71C7...976F',
+        status: 'Success',
+        quantity: 0.57,
+        amount_in_usd: 850.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'March 28, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x8626...1199',
+        status: 'Success',
+        quantity: 1.28,
+        amount_in_usd: 1900.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'March 21, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0xdD87...2148',
+        status: 'Success',
+        quantity: 1.28,
+        amount_in_usd: 1900.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'March 14, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x2546...Ec30',
+        status: 'Success',
+        quantity: 1.31,
+        amount_in_usd: 1950.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'March 7, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0xbDA5...197E',
+        status: 'Success',
+        quantity: 1.31,
+        amount_in_usd: 1950.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'February 28, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x97d9...AFB7',
+        status: 'Success',
+        quantity: 1.31,
+        amount_in_usd: 1950.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'February 21, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0xFABB...694a',
+        status: 'Success',
+        quantity: 1.31,
+        amount_in_usd: 1950.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'February 14, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x1aE0...454C',
+        status: 'Success',
+        quantity: 1.31,
+        amount_in_usd: 1950.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'February 7, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x07ee...1e5a',
+        status: 'Success',
+        quantity: 0.67,
+        amount_in_usd: 1000.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'January 31, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x2361...1E8f',
+        status: 'Success',
+        quantity: 0.67,
+        amount_in_usd: 1000.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'January 24, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x9A60...9F8A',
+        status: 'Success',
+        quantity: 0.67,
+        amount_in_usd: 1000.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'January 17, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x3E5e...f9A9',
+        status: 'Success',
+        quantity: 0.67,
+        amount_in_usd: 1000.0,
+        assets: 'ETH'
+      },
+      {
+        date: 'September 1, 2025',
+        description: 'Deposit ETH',
+        walletAddress: '0x264e...b103',
+        status: 'Success',
+        quantity: 2218.84,
+        amount_in_usd: 3300000.0,
+        assets: 'ETH'
+      },
+    ],
+    assets: [
+      {
+        assetsName: 'BTC',
+        assetsName2: 'Bitcoin',
+        walletAddress: 'bc1qhl7znnt6uj4kcez96az2lt9x3w8lax46hvfv2j',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/N6UMWP2.png',
+        quantity: 0
+      },
+      {
+        assetsName: 'ETH',
+        assetsName2: 'Ethereum',
+        walletAddress: '0x4dEea33c8A880b1841B4b7A94ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/feMQhL4.png',
+        quantity: 2769.74
+      },
+      {
+        assetsName: 'BNB',
+        assetsName2: 'Binance Coin',
+        walletAddress: '0x4dEea33c8A880b1841B4b7A94ce13ffefA5c052e',
+        barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
+        assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
+        quantity: 0
+      }
+    ]
   }
 ];
