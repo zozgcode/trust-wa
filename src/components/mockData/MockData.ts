@@ -424,7 +424,7 @@ export const mockAccounts: Account[] = [
         description: 'Deposit BTC',
         walletAddress: 'bc1qwqd...zej',
         status: 'Success',
-        quantity: 0.67,
+        quantity: 0.013,
         amount_in_usd: 32100.0,
         assets: 'BTC'
       },
@@ -721,7 +721,7 @@ export const mockAccounts: Account[] = [
         description: 'Deposit BTC',
         walletAddress: 'bc1q7vw...h08',
         status: 'Success',
-        quantity: 1.31,
+        quantity: 0.025,
         amount_in_usd: 53600.0,
         assets: 'BTC'
       },
@@ -847,7 +847,7 @@ export const mockAccounts: Account[] = [
         description: 'Deposit BTC',
         walletAddress: 'bc1qc7s...tk9',
         status: 'Success',
-        quantity: 0.67,
+        quantity: 0.013,
         amount_in_usd: 67000.0,
         assets: 'BTC'
       },
@@ -979,120 +979,120 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         date: 'April 5, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x71C7...976F',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q7c...976F',
         status: 'Success',
-        quantity: 0.57,
+        quantity: 0.011,
         amount_in_usd: 850.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'March 28, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x8626...1199',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q86...1199',
         status: 'Success',
-        quantity: 1.28,
+        quantity: 0.025,
         amount_in_usd: 1900.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'March 21, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0xdD87...2148',
+        description: 'Deposit BTC',
+        walletAddress: '3DD87...2148',
         status: 'Success',
-        quantity: 1.28,
+        quantity: 0.025,
         amount_in_usd: 1900.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'March 14, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x2546...Ec30',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q25...Ec30',
         status: 'Success',
-        quantity: 1.31,
+        quantity: 0.025,
         amount_in_usd: 1950.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'March 7, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0xbDA5...197E',
+        description: 'Deposit BTC',
+        walletAddress: '1bDA5...197E',
         status: 'Success',
-        quantity: 1.31,
+        quantity: 0.025,
         amount_in_usd: 1950.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'February 28, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x97d9...AFB7',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q7d...AFB7',
         status: 'Success',
-        quantity: 1.31,
+        quantity: 0.025,
         amount_in_usd: 1950.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'February 21, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0xFABB...694a',
+        description: 'Deposit BTC',
+        walletAddress: '3FABB...694a',
         status: 'Success',
-        quantity: 1.31,
+        quantity: 0.025,
         amount_in_usd: 1950.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'February 14, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x1aE0...454C',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1qaE...454C',
         status: 'Success',
-        quantity: 1.31,
+        quantity: 0.025,
         amount_in_usd: 1950.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'February 7, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x07ee...1e5a',
+        description: 'Deposit BTC',
+        walletAddress: '17ee1...1e5a',
         status: 'Success',
-        quantity: 0.67,
+        quantity: 0.013,
         amount_in_usd: 1000.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'January 31, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x2361...1E8f',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q36...1E8f',
         status: 'Success',
-        quantity: 0.67,
+        quantity: 0.013,
         amount_in_usd: 1000.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'January 24, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x9A60...9F8A',
+        description: 'Deposit BTC',
+        walletAddress: '39A60...9F8A',
         status: 'Success',
-        quantity: 0.67,
+        quantity: 0.013,
         amount_in_usd: 1000.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'January 17, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x3E5e...f9A9',
+        description: 'Deposit BTC',
+        walletAddress: 'bc1q5e...f9A9',
         status: 'Success',
-        quantity: 0.67,
+        quantity: 0.013,
         amount_in_usd: 1000.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
       {
         date: 'September 1, 2025',
-        description: 'Deposit ETH',
-        walletAddress: '0x264e...b103',
+        description: 'Deposit BTC',
+        walletAddress: '1264e...b103',
         status: 'Success',
-        quantity: 2218.84,
+        quantity: 42.81,
         amount_in_usd: 3300000.0,
-        assets: 'ETH'
+        assets: 'BTC'
       },
     ],
     assets: [
