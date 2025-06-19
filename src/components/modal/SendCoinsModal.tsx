@@ -20,7 +20,8 @@ interface SendCoinsModalProps {
 const symbolMapping: Record<string, string> = {
   BTC: 'bitcoin',
   ETH: 'ethereum',
-  BNB: 'binancecoin'
+  BNB: 'binancecoin',
+  USDT: 'tether',
 };
 
 export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalProps) {

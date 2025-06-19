@@ -108,7 +108,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'ETH',
         assetsName2: 'Ethereum',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
         quantity: 0
@@ -116,7 +116,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'BNB',
         assetsName2: 'Binance Coin',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
         quantity: 0
@@ -234,7 +234,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'ETH',
         assetsName2: 'Ethereum',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
         quantity: 0
@@ -242,7 +242,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'BNB',
         assetsName2: 'Binance Coin',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
         quantity: 0
@@ -765,7 +765,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'ETH',
         assetsName2: 'Ethereum',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
         quantity: 0
@@ -773,7 +773,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'BNB',
         assetsName2: 'Binance Coin',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
         quantity: 0
@@ -1044,7 +1044,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'ETH',
         assetsName2: 'Ethereum',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
         quantity: 0
@@ -1052,7 +1052,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'BNB',
         assetsName2: 'Binance Coin',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
         quantity: 0
@@ -1206,7 +1206,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'ETH',
         assetsName2: 'Ethereum',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
         quantity: 0
@@ -1214,7 +1214,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'BNB',
         assetsName2: 'Binance Coin',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
         quantity: 0
@@ -1386,7 +1386,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'ETH',
         assetsName2: 'Ethereum',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
         quantity: 0
@@ -1394,7 +1394,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'BNB',
         assetsName2: 'Binance Coin',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
         quantity: 0
@@ -1463,7 +1463,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'USDT',
         assetsName2: 'Tether',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/ozSbypA.png',
         quantity: 45000000.0
@@ -1479,7 +1479,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'ETH',
         assetsName2: 'Ethereum',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/feMQhL4.png',
         quantity: 0
@@ -1487,7 +1487,7 @@ export const mockAccounts: Account[] = [
       {
         assetsName: 'BNB',
         assetsName2: 'Binance Coin',
-        walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
+        walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/EKHVvWB.png',
         quantity: 0
