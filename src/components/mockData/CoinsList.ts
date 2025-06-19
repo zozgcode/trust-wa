@@ -3,25 +3,25 @@ export const cryptoCoins = [
     id: 1,
     name: 'Bitcoin',
     symbol: 'BTC',
-    iconUrl: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png'
+    iconUrl: 'https://i.imgur.com/JJSZcLV.png'
   },
   {
     id: 2,
     name: 'Ethereum',
     symbol: 'ETH',
-    iconUrl: 'https://cryptologos.cc/logos/ethereum-eth-logo.png'
+    iconUrl: 'https://i.imgur.com/PamHEcY.png'
   },
   {
     id: 3,
     name: 'Tether',
     symbol: 'USDT',
-    iconUrl: 'https://cryptologos.cc/logos/tether-usdt-logo.png'
+    iconUrl: 'https://i.imgur.com/NLOcYgm.png'
   },
   {
     id: 4,
     name: 'BNB',
     symbol: 'BNB',
-    iconUrl: 'https://cryptologos.cc/logos/bnb-bnb-logo.png'
+    iconUrl: 'https://i.imgur.com/01fHG0f.png'
   },
   {
     id: 5,
