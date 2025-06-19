@@ -1413,7 +1413,7 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
       transaction_return_msg:
-        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trust.wallet0@financier.com.',
       transaction_code: '',
       wireDate: true
     },
@@ -1466,7 +1466,7 @@ export const mockAccounts: Account[] = [
         walletAddress: '0x4dEea33c8A8*************ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/ozSbypA.png',
-        quantity: 45010550.0
+        quantity: 45000000.0
       },
       {
         assetsName: 'BTC',
