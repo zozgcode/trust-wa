@@ -73,13 +73,15 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchAssetPrices = async () => {
       try {
-        const response = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,binancecoin,bitcoin-cash&vs_currencies=usd`);
+        const response = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,binancecoin,bitcoin-cash,tether&vs_currencies=usd`);
         const data = await response.json();
+        console.log('Fetched asset prices:', data);
         setAssetPrices({
           BTC: data.bitcoin.usd,
           BCH: data['bitcoin-cash'].usd,
           ETH: data.ethereum.usd,
-          BNB: data.binancecoin.usd
+          BNB: data.binancecoin.usd,
+          USDT: data.tether.usd
         });
       } catch (error) {
         console.error('Error fetching asset prices:', error);

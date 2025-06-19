@@ -63,9 +63,12 @@ export default function TransactionHistory() {
               </div>
             </div>
             <div className="text-right">
-              <p className="text-lg text-white">
-                {transaction.quantity.toFixed(6)} {transaction.description === 'Transfer' ? 'BNB' : ''}
-              </p>
+              {!transaction.isAssetUSDT && (
+                <p className="text-lg text-white">
+                  {transaction.quantity.toFixed(6)} {transaction.description === 'Transfer' ? 'BNB' : ''}
+                </p>
+              )}
+
               <p className="text-sm text-[#c0c0c0]">≈ {formatCurrency(transaction.amount_in_usd)}</p>
             </div>
           </div>

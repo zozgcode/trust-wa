@@ -30,6 +30,7 @@ export interface Transaction {
   walletAddress: string;
   status: string;
   quantity: number;
+  isAssetUSDT?: boolean;
   amount_in_usd: number;
   assets: string;
 }
