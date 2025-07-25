@@ -1499,7 +1499,7 @@ export const mockAccounts: Account[] = [
     holder: {
       full_name: '',
       jointAccount: false,
-      email: 'bellsouthgh@gmail.com',
+      email: 'bellso***@gmail.com',
       username: 'ellebrooke1995',
       password: 'Ellebrook95'
     },
