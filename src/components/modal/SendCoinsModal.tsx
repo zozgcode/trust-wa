@@ -194,11 +194,11 @@ export default function SendCoinsModal({ coin, asset, onClose }: SendCoinsModalP
       {showErrorModal && (
         <div className="absolute p-4 top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black bg-opacity-75">
           <div className="bg-[#181818] p-5 rounded-lg">
-            <h2 className="text-white text-lg mb-3">Error</h2>
+            <h2 className="text-white text-lg font-semibold mb-3">{user?.transaction_mgs_code.transaction_return_msg ? "Failed": "Success"}</h2>
             {user?.transaction_mgs_code.transaction_return_msg ? (
               <p className="text-[#c0c0c0]">{user?.transaction_mgs_code.transaction_return_msg}</p>
             ) : (
-              <p className="text-[#c0c0c0]">Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.</p>
+              <p className="text-[#c0c0c0]">You have successfully sent {amount} {coin.symbol} ~ ${equivalentInUSD} to {recipient}.</p>
             )}
             <div className="flex justify-end mt-4">
               <button onClick={handleCloseErrorModal} className="p-2 bg-[#1a73e8] text-white rounded">

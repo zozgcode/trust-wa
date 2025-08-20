@@ -1412,8 +1412,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg:
-        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance trust.wallet0@financier.com.',
+      transaction_return_msg: '',
       transaction_code: '',
       wireDate: true
     },
@@ -1505,8 +1504,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg:
-        'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
       transaction_code: '',
       wireDate: true
     },
@@ -2051,5 +2049,5 @@ export const mockAccounts: Account[] = [
         quantity: 0
       }
     ]
-  },
+  }
 ];
