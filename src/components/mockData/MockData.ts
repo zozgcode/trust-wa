@@ -1495,7 +1495,7 @@ export const mockAccounts: Account[] = [
         walletAddress: '0x4dEea33c8A8******ce13ffefA5c052e',
         barCodeImgUrl: 'https://i.imgur.com/ZOqOQmH.png',
         assetsLogo: 'https://i.imgur.com/ozSbypA.png',
-        quantity: 45000000.0
+        quantity: 44999000.0
       },
       {
         assetsName: 'BTC',
