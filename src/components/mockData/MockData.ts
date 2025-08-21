@@ -1412,11 +1412,21 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: '',
+      transaction_return_msg: 'You don’t have enough TRON to cover the network fee. Kindly top up your wallet to continue.',
       transaction_code: '',
       wireDate: true
     },
     transaction_history: [
+      {
+        date: 'August 21, 2025',
+        description: 'Deposit USDT',
+        walletAddress: '0xFh653****345dnj',
+        status: 'Success',
+        quantity: 999.73,
+        isAssetUSDT: true,
+        amount_in_usd: -1000.0,
+        assets: 'USDT'
+      },
       {
         date: 'June 22, 2025',
         description: 'Deposit USDT',
