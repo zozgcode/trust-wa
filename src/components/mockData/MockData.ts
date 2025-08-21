@@ -1424,6 +1424,26 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         quantity: 999.73,
         isAssetUSDT: true,
+        amount_in_usd: 1000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'August 21, 2025',
+        description: 'Transfer USDT',
+        walletAddress: '0x3md7h****sj874n',
+        status: 'Success',
+        quantity: 999.73,
+        isAssetUSDT: true,
+        amount_in_usd: -1000.0,
+        assets: 'USDT'
+      },
+      {
+        date: 'August 21, 2025',
+        description: 'Transfer USDT',
+        walletAddress: '0x2s6y3****366jsj',
+        status: 'Success',
+        quantity: 999.73,
+        isAssetUSDT: true,
         amount_in_usd: -1000.0,
         assets: 'USDT'
       },
