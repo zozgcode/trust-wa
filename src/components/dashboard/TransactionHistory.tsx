@@ -47,6 +47,7 @@ export default function TransactionHistory() {
         </Link>
       </div>
       <div className="p-4">
+        {user.transaction_history.length === 0 && <div className="text-sm text-center text-white italic py-4">No transactions yet.</div>}
         {user.transaction_history.map((transaction: Transaction) => (
           <div key={transaction.transaction_id} className="flex justify-between p-4 mb-2 bg-[#2A2A2A] shadow-sm rounded-[20px]">
             <div className="flex">
