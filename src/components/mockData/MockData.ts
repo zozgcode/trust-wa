@@ -2092,7 +2092,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, Please enter the code sent to you.',
-      transaction_return_msg: 'Withdrawal failed due to wallet policies and international transaction tax requirements. Please contact our support team for assistance.',
+      transaction_return_msg: "Withdrawal failed. You don't have enough TRON to cover the network fee. For assistance, please contact our support team via telegram: @ClientHelp247.",
       transaction_code: '',
       wireDate: true
     },
